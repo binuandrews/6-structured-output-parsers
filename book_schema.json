@@ -1,0 +1,30 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "name": "BookInfo",
+  "title": "Book Information Schema",
+  "type": "object",
+  "properties": {
+    "title": {
+      "type": "string",
+      "description": "The title of the book."
+    },
+    "author": {
+      "type": "string",
+      "description": "The author or primary writer of the book."
+    },
+    "genre": {
+      "type": "string",
+      "description": "The main literary category or genre of the book."
+    },
+    "published_year": {
+      "type": "integer",
+      "description": "The year in which the book was first published."
+    },
+    "themes": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "List of major themes or subjects explored in the book."
+    }
+  },
+  "required": ["title", "author", "genre", "published_year", "themes"]
+}

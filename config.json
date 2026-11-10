@@ -1,0 +1,13 @@
+{
+  "provider": "openai",
+  "gemini": {
+    "model": "gemini-3.8-flash",
+    "temperature": 0.7,
+    "max_tokens": 200
+  },
+  "openai": {
+    "model": "gpt-6.1-sol",
+    "temperature":1,
+    "max_tokens": 1000
+  }
+}
